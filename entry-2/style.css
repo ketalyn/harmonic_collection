@@ -44,7 +44,21 @@
   .containerBox {
     position: relative;
     display: inline-block;
+    height: 700px;
+    width: 500px;
  }
+
+ .dark-overlay {
+  position: absolute;
+  top: 500;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+  transition: all ease-in-out 200;
+}
+
  .text-box {
     position: absolute;
     height: 100%;
@@ -60,7 +74,7 @@
  h4 {
     display: inline-block;
     font-size: 20px; /*or whatever you want*/
-    color: #95c5f5;   
+    color: #bfd8f2;   
  }
  img {
    display: block;

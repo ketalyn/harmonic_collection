@@ -1,0 +1,108 @@
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+  }
+
+  .element {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .element:hover {
+    shape-inside: polygon(100px 0, 600px 0, 600px 800px, 0px 500px);
+    -webkit-clip-path:  polygon(400px 0, 700px 0, 800px 500px, 0px 500px);
+   /* shape-inside: circle(50%, 50%, 50%);
+    -webkit-clip-path: circle(50%, 50%, 50%); */
+  } 
+
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body {
+    background-color: #F5F5F5; 
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+p {
+  width: 600px;
+  margin: 30px auto;
+}
+.element2 {   
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  width: 800px; 
+  height: 800px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+  shape-padding: 20px;
+  transition: all 2s ease; 
+  -webkit-clip-path: polygon(0 0,  800px 0, 350px 300px, 50px 800px);
+} 
+.element2:hover {
+  shape-inside: polygon(100px 0, 600px 0, 600px 800px, 0px 500px);
+  -webkit-clip-path:  polygon(400px 0, 700px 0, 800px 500px, 0px 500px);
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+} 
+
+.element3 {   
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  width: 800px; 
+  height: 800px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+  shape-padding: 20px;
+  transition: all 2s ease; 
+  -webkit-clip-path: polygon(0 0,  800px 0, 350px 300px, 50px 800px);
+} 
+.element2 :hover {
+  shape-inside: polygon(100px 0, 600px 0, 600px 800px, 0px 500px);
+  -webkit-clip-path:  polygon(400px 0, 700px 0, 800px 500px, 0px 500px);
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+} 
+
+.element3 {   
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  width: 800px; 
+  height: 800px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+  shape-padding: 20px;
+  transition: all 2s ease; 
+  -webkit-clip-path: polygon(0 0,  800px 0, 350px 300px, 50px 800px);
+} 
+.element3:hover {
+  shape-inside: polygon(100px 0, 600px 0, 600px 800px, 0px 500px);
+  -webkit-clip-path:  polygon(400px 0, 700px 0, 800px 500px, 0px 500px);
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+} 
+
+.element4 {   
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  width: 800px; 
+  height: 800px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(0 0,  500px 0, 350px 300px, 150px 300px);
+  shape-padding: 20px;
+  transition: all 2s ease; 
+  -webkit-clip-path: polygon(0 0,  800px 0, 350px 300px, 50px 800px);
+} 
+.element4:hover {
+  shape-inside: polygon(100px 0, 600px 0, 600px 800px, 0px 500px);
+  -webkit-clip-path:  polygon(400px 0, 700px 0, 800px 500px, 0px 500px);
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+} 
